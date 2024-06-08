@@ -1,10 +1,10 @@
-# Jus Mundis - Technical Test - Data Engineer (LLM/Python)
+# Jus Mundi - Technical Test - Data Engineer (LLM/Python)
 The following repository contains a FastAPI application to convert a list of numbers to their equivalent in French.
 
 
 ## Standalone Execution
 To execute, one of the following options can be used:
-- [app.py](https://github.com/berririamal/jusmundi/blob/master/app.py) allows to store convert the numbers using [num2words](https://github.com/savoirfairelinux/num2words).
+- [app.py](https://github.com/berririamal/jusmundi/blob/master/app.py) allows to store convert the numbers using a custom algorithm.
     ```sh
     python app.py
     ```
@@ -51,45 +51,45 @@ The API is exposed in the following:
   "11": "onze",
   "15": "quinze",
   "20": "vingt",
-  "21": "vingt et un",
+  "21": "vingt-et-un",
   "30": "trente",
   "35": "trente-cinq",
   "50": "cinquante",
-  "51": "cinquante et un",
+  "51": "cinquante-et-un",
   "68": "soixante-huit",
   "70": "soixante-dix",
   "75": "soixante-quinze",
   "99": "quatre-vingt-dix-neuf",
   "100": "cent",
-  "101": "cent un",
-  "105": "cent cinq",
-  "111": "cent onze",
-  "123": "cent vingt-trois",
-  "168": "cent soixante-huit",
-  "171": "cent soixante et onze",
-  "175": "cent soixante-quinze",
-  "199": "cent quatre-vingt-dix-neuf",
-  "200": "deux cents",
-  "201": "deux cent un",
-  "555": "cinq cent cinquante-cinq",
-  "999": "neuf cent quatre-vingt-dix-neuf",
+  "101": "cent-un",
+  "105": "cent-cinq",
+  "111": "cent-onze",
+  "123": "cent-vingt-trois",
+  "168": "cent-soixante-huit",
+  "171": "cent-soixante-onze",
+  "175": "cent-soixante-quinze",
+  "199": "cent-quatre-vingt-dix-neuf",
+  "200": "deux-cents",
+  "201": "deux-cent-un",
+  "555": "cinq-cent-cinquante-cinq",
+  "999": "neuf-cent-quatre-vingt-dix-neuf",
   "1000": "mille",
-  "1001": "mille un",
-  "1111": "mille cent onze",
-  "1199": "mille cent quatre-vingt-dix-neuf",
-  "1234": "mille deux cent trente-quatre",
-  "1999": "mille neuf cent quatre-vingt-dix-neuf",
-  "2000": "deux mille",
-  "2001": "deux mille un",
-  "2020": "deux mille vingt",
-  "2021": "deux mille vingt et un",
-  "2345": "deux mille trois cent quarante-cinq",
-  "9999": "neuf mille neuf cent quatre-vingt-dix-neuf",
-  "10000": "dix mille",
-  "11111": "onze mille cent onze",
-  "12345": "douze mille trois cent quarante-cinq",
-  "123456": "cent vingt-trois mille quatre cent cinquante-six",
-  "654321": "six cent cinquante-quatre mille trois cent vingt et un",
-  "999999": "neuf cent quatre-vingt-dix-neuf mille neuf cent quatre-vingt-dix-neuf"
+  "1001": "mille-un",
+  "1111": "mille-cent-onze",
+  "1199": "mille-cent-quatre-vingt-dix-neuf",
+  "1234": "mille-deux-cent-trente-quatre",
+  "1999": "mille-neuf-cent-quatre-vingt-dix-neuf",
+  "2000": "deux-mille",
+  "2001": "deux-mille-un",
+  "2020": "deux-mille-vingt",
+  "2021": "deux-mille-vingt-et-un",
+  "2345": "deux-mille-trois-cent-quarante-cinq",
+  "9999": "neuf-mille-neuf-cent-quatre-vingt-dix-neuf",
+  "10000": "dix-mille",
+  "11111": "onze-mille-cent-onze",
+  "12345": "douze-mille-trois-cent-quarante-cinq",
+  "123456": "cent-vingt-trois-mille-quatre-cent-cinquante-six",
+  "654321": "six-cent-cinquante-quatre-mille-trois-cent-vingt-et-un",
+  "999999": "neuf-cent-quatre-vingt-dix-neuf-mille-neuf-cent-quatre-vingt-dix-neuf"
 }
 ```
